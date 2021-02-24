@@ -5,7 +5,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <script src="./assets/js/bundle.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 </head>
 
@@ -18,8 +20,10 @@
     <h2 class="intro">Pour générer ton flyer, clique sur le bouton ci-dessous</h2>
 
     <button onclick="createCode()">Générer mon flyers de parrainage</button>
+
     </br>
-    <a href="" id="generateLink"></a>
+    <canvas id="canvas" width="2480" height="3508" hidden></canvas>
+    <a id="download" download="kard_flyers" href="" onclick="download_img(this);"></a>
 </body>
 
 
