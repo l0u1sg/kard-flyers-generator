@@ -5,7 +5,7 @@ function createCode() {
         var circle_canvas = document.getElementById("canvas");
         var context = circle_canvas.getContext("2d");
         var img = new Image();
-        img.src = "assets/img/img.jpg";
+        img.src = "../assets/img/img.jpg";
         img.onload = function () {
             context.drawImage(img, 0, 0);
             context.lineWidth = 1;
