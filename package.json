@@ -1,0 +1,9 @@
+{
+  "name": "kard-flyers-generator",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/l0u1sg/kard-flyers-generator.git",
+  "author": "Louis GALLET <louis.gallet@tumo.world>",
+  "license": "MIT",
+  "private": false
+}
